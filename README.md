@@ -35,11 +35,14 @@ To run this project, you need to install the following packages:
 
 git - `https://git-scm.com/downloads`
 ```
- pip install pandas
- pip install psycopg2
- pip install requests
- pip install streamlit
- pip install plotly
+import streamlit as st
+from streamlit_option_menu import option_menu
+import psycopg2
+import pandas as pd
+import plotly.express as px
+import requests
+import json
+from PIL import Image
 ```
 
 ## Usage
